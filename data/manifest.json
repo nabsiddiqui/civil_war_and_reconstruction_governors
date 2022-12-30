@@ -1,0 +1,55 @@
+{
+    "version": "0.0.113",
+    "plot_id": "bf8695c6-878c-11ed-8d8d-9a67ef79abbe",
+    "output_directory": "output",
+    "layouts": {
+        "umap": {
+            "variants": [
+                {
+                    "n_neighbors": 15,
+                    "min_dist": 0.01,
+                    "layout": "output/data/layouts/umap-bf8695c6-878c-11ed-8d8d-9a67ef79abbe.json",
+                    "jittered": "output/data/layouts/umap-jittered-bf8695c6-878c-11ed-8d8d-9a67ef79abbe.json"
+                }
+            ]
+        },
+        "alphabetic": {
+            "layout": "output/data/layouts/grid-bf8695c6-878c-11ed-8d8d-9a67ef79abbe.json"
+        },
+        "grid": {
+            "layout": "output/data/layouts/rasterfairy-bf8695c6-878c-11ed-8d8d-9a67ef79abbe.json"
+        },
+        "categorical": false,
+        "date": {
+            "layout": "output/data/layouts/timeline-bf8695c6-878c-11ed-8d8d-9a67ef79abbe.json",
+            "labels": "output/data/layouts/timeline-labels-bf8695c6-878c-11ed-8d8d-9a67ef79abbe.json"
+        },
+        "geographic": null,
+        "custom": null
+    },
+    "initial_layout": "umap",
+    "point_sizes": {
+        "min": 0,
+        "grid": 0.011627906976744186,
+        "max": 0.013953488372093023,
+        "scatter": 0.002325581395348837,
+        "initial": 0.002325581395348837,
+        "categorical": 0.0069767441860465115,
+        "geographic": 0.00029069767441860465,
+        "date": 0.006666666666666667
+    },
+    "imagelist": "output/data/imagelists/imagelist-bf8695c6-878c-11ed-8d8d-9a67ef79abbe.json",
+    "atlas_dir": "output/data/atlases/bf8695c6-878c-11ed-8d8d-9a67ef79abbe",
+    "metadata": true,
+    "default_hotspots": "output/data/hotspots/hotspot-bf8695c6-878c-11ed-8d8d-9a67ef79abbe.json",
+    "custom_hotspots": "output/data/hotspots/user_hotspots.json",
+    "gzipped": false,
+    "config": {
+        "sizes": {
+            "atlas": 2048,
+            "cell": 32,
+            "lod": 128
+        }
+    },
+    "creation_date": "29-December-2022-09:31:51"
+}
